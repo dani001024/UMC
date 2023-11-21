@@ -12,7 +12,7 @@ function Movie(prop) {
                         <p>{prop.overview}</p>
                     </Overview>
                     <Img>
-                        <img src={`https://image.tmdb.org/t/p/w342${imagePath}`}></img>
+                        <img src={`https://image.tmdb.org/t/p/w342${imagePath}`} alt='이미지'></img>
                     </Img>
                 </Container>
                 <Info>
